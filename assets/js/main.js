@@ -7,7 +7,7 @@ document.getElementById("signup-form").addEventListener("submit", function(e) {
 
     let user = { name, email, password };
     
-    fetch("https://your-backend.com/api/signup", {  
+    fetch("https://whatsapp-contact-gain-backend.onrender.com/api/signup", {  
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(user)
