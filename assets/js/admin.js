@@ -1,5 +1,5 @@
 document.getElementById("fetch-users").addEventListener("click", function() {
-    fetch("https://your-backend.com/api/users")
+    fetch("https://whatsapp-contact-gain-backend.onrender.com/api/users")
         .then(response => response.json())
         .then(data => {
             let userList = document.getElementById("user-list");
