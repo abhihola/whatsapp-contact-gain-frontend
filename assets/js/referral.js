@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch("https://your-backend.com/api/referrals")
+    fetch("https://whatsapp-contact-gain-backend.onrender.com/api/referrals")
         .then(response => response.json())
         .then(data => {
             document.getElementById("referral-link").value = data.referralLink;
